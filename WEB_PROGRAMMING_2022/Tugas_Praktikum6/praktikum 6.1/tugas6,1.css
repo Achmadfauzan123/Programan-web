@@ -1,0 +1,28 @@
+*{
+    margin: 35px;
+    padding: 0px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+    width: 18%;
+    height: 10%;
+    margin: 10px; 
+    }
+
+.img {
+    width: 85%;
+}
+
+.boxA {
+    width: 29%;
+}
+
+.boxi {
+    margin-left: 15px;
+}

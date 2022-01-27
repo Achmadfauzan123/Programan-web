@@ -1,0 +1,27 @@
+.baris {
+  
+    margin: auto;
+}
+
+.kotak {
+    width: 23%;
+    height: 600px;
+    float: left;
+    margin: 10px;
+}
+
+.warna1{
+    background-color: gold;
+}
+
+.warna2 {
+    background-color: orangered;
+}
+
+.warna3{
+    background-color: lawngreen;
+}
+
+.warna4 {
+    background-color: mediumslateblue;
+}

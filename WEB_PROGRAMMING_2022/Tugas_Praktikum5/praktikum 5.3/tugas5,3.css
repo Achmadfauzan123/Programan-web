@@ -1,0 +1,57 @@
+.box{
+    box-sizing: border-box;
+}
+.warna-A{
+    background-color: gold;
+    height: 100px;
+    width: 22%;
+}
+
+.warna-B{
+    background-color: orangered;
+    height: 100px;
+    width: 75%;
+    margin-left: 
+    3%;
+}
+
+.warna-C{
+    background-color: lawngreen;
+    height: 700px;
+    width: 22%;
+}
+
+.warna-D{
+    background-color: darkslategray;
+    height: 700px;
+    width: 50%;
+    margin-left: 3%;
+}
+
+    .warna-E{
+        background-color: mediumslateblue;
+        height: 700px;
+        width: 22%;
+        margin-left: 
+        3%;
+    }
+
+    .warna-F{
+        background-color: mediumblue;
+        height: 100px;
+        width: 100%;
+        margin-top: 1%;
+    }
+
+    .baris1{
+        float: left;
+        margin-bottom: 1%;
+    }
+    .baris2{
+        float: left;
+        
+    }
+    .baris3{
+        float: left;
+
+    }

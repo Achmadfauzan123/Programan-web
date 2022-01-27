@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image picker</title>
+    <style>
+        .pict{
+            width: 50%;
+            height: 50%;
+        }
+    </style>
+</head>
+<body>
+    <h1>IMAGE PICKER</h1>
+    <select id="selectOne" onchange="myImage()">
+    <option value="ayam">ayam</option>
+    <option value="domba">domba</option>
+    <option value="gorila">gorila</option>
+    <option value="kucing">kucing</option>
+    <option value="kuda">kuda</option>
+    <option value="landak">landak</option>
+    </select>
+    <div id="demo"></div>
+
+    <script>
+        function myImage() {
+            var x = document.getElementById("selectOne").value;
+
+            if (x == "ayam") {
+                Badak = document.getElementById("demo").innerHTML = '<img class="pict" src="jpg/ayam.jpg">'
+                window.alert("ini gambar " + x);
+            }
+            if (x == "domba") {
+                Beruang = document.getElementById("demo").innerHTML = '<img class="pict" src="jpg/domba.jpg">'
+                window.alert("ini gambar " + x);
+            }
+            if (x == "gorila") {
+                Komodo = document.getElementById("demo").innerHTML = '<img class="pict" src="jpg/gorila.jpg">'
+                window.alert("ini gambar " + x);
+            }
+            if (x == "kucing") {
+                Merak = document.getElementById("demo").innerHTML = '<img class="pict" src="jpg/kucing.jpg">'
+                window.alert("ini gambar " + x);
+            }
+            if (x == "kuda") {
+                Panda = document.getElementById("demo").innerHTML = '<img class="pict" src="jpg/kuda.jpg">'
+                window.alert("ini gambar " + x);
+            }
+            if (x == "landak") {
+                Platipus = document.getElementById("demo").innerHTML = '<img class="pict" src="jpg/landak.jpg">'
+                window.alert("ini gambar " + x);
+            }
+        }
+    </script>
+</body>
+</html>

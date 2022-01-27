@@ -1,0 +1,39 @@
+.box{
+    box-sizing: border-box;
+  
+}
+.warna1{
+    background-color: lawngreen;
+    height: 200px;
+}
+
+.warna2{
+    background-color: gold;
+height: 300px;
+width: 20%;
+}
+
+.warna3{
+    background-color: orangered;
+    height: 300px;
+    width: 75%;
+    margin-left: 5%;
+}
+
+.warna4{
+    background-color: mediumslateblue;
+    height: 300px;
+    width: 75%;
+    margin-left: 
+    5%;
+}
+
+.atas{
+ float: left;
+ margin-top: 2%;
+}
+
+.bawah{
+    float: left;
+    margin-top: 2%;
+}
